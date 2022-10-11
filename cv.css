@@ -1,0 +1,32 @@
+*{
+    font-size: initial;
+}
+.left-container{
+    float: left;
+    background-color: rgb(213, 206, 206);
+}
+.honemar{
+    padding: 50px 0px;
+    text-align: center;
+    font-size: xxx-large;
+}
+.inner-container{
+    padding: 40px 40px 50px 50px;
+}
+.right-container{
+    float: right;
+}
+.left-most-inner{
+    margin: 30px;
+    
+  
+}
+.myclass1{
+    border-bottom: 1px solid gray;
+    margin-bottom: 3px;
+    font-size: xx-large;
+
+}
+.right-most-container{
+    padding: 30px 20px;
+}
