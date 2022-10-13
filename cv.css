@@ -2,19 +2,27 @@
     font-size: initial;
 }
 .left-container{
-    float: left;
+    /* float: left; */
     background-color: rgb(213, 206, 206);
+    width: 30%;
+
 }
+
 .honemar{
-    padding: 50px 0px;
+    padding: 10px;
     text-align: center;
     font-size: xxx-large;
 }
 .inner-container{
-    padding: 40px 40px 50px 50px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
 }
 .right-container{
-    float: right;
+    /* float: right; */
+    overflow: hidden;
+    width: 70%;
 }
 .left-most-inner{
     margin: 30px;
@@ -29,4 +37,27 @@
 }
 .right-most-container{
     padding: 30px 20px;
+}
+.outercontainer{
+    /* box-sizing: border-box; */
+    /* display: flex; */
+}
+@media screen and (max-width: 767px) and (min-width: 320px){
+    .inner-container{
+        display: block;
+        width: 100%;
+
+    }
+    .left-container{
+        width: 100%;
+    }
+    .right-container{
+        width: 100%;
+    }
+    .right-most-container{
+        padding: 0px;
+    }
+    .bclass{
+        width: 100%;
+    }
 }
